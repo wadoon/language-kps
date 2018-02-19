@@ -1,0 +1,10 @@
+# If you want some examples of settings, check out:
+# https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
+
+'.source.kps':
+  'editor':
+    'commentStart': '// '
+    'commentStart': '// '
+    'foldEndPattern': '^\\s*(\\}|// \\}\\}\\}$)'
+    'increaseIndentPattern': '^.*\\{(\\}|[^}"\']*)$|^\\s*(public|private|protected):\\s*$'
+    'decreaseIndentPattern': '^(.*\\*/)?\\s*\\}|^\\s*(public|private|protected):\\s*$'
